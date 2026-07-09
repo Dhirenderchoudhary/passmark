@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://res.cloudinary.com/dkanxf2cg/image/upload/v1776252765/passmark-logo_cj0qbz.png" alt="Passmark" width="500" />
+    <a href="https://bug0.com/p/passmark"><img src="https://raw.githubusercontent.com/bug0inc/passmark/main/.github/assets/passmark-logo-banner.png" alt="Passmark" /></a>
     <br>
     <small>The open-source Playwright library for AI regression testing.</small>
 </h1>
