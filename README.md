@@ -1,7 +1,7 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/bug0inc/passmark/main/.github/assets/passmark-logo-banner.png" alt="Passmark" />
+    <a href="https://bug0.com/p/passmark"><img src="https://raw.githubusercontent.com/bug0inc/passmark/main/.github/assets/passmark-logo-banner.png" alt="Passmark" /></a>
     <br>
-    <small style="display: block; max-width: 560px; margin: 16px auto;">The open-source Playwright library for AI regression testing.</small>
+    <small>The open-source Playwright library for AI regression testing.</small>
 </h1>
 
 <p align="center">
