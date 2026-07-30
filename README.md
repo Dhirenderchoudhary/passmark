@@ -16,6 +16,8 @@ Passmark covers your browser regression testing end-to-end and **helps you catch
 
 It uses AI models to execute natural language browser steps via Playwright, with intelligent caching, auto-healing, and multi-model assertion verification. Your tests stay stable without needing to update AI prompts or retrain models.
 
+Passmark is built by [Bug0](https://bug0.com), the team also building [FactoryKit](https://factorykit.ai), the AI software factory.
+
 ## Quick Start
 
 ```bash
@@ -180,6 +182,10 @@ Set `OPENAI_API_KEY` whenever any step opts into `mode: "cua"`. CUA steps still 
 - **Telemetry** — Optional Axiom and OpenTelemetry tracing via environment variables
 - **Structured Logging** — Pino-based logger with configurable log levels
 - **Global Configuration** — Single `configure()` entry point for models, gateway, email provider, and upload path
+
+## Testing agent-written code
+
+Regression risk scales with change volume, and coding agents have multiplied change volume. When a background coding agent like [FactoryKit](https://factorykit.ai) works your backlog, it runs your repo's own checks on every change before a human reviews the pull request; a Passmark suite slots in as exactly that check. Because steps are written in natural language and auto-heal, the suite keeps passing while the agent reshapes the DOM underneath it, which is where selector-based tests usually give up.
 
 ## Core Functions
 
